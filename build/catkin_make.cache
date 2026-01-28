@@ -1,0 +1,2 @@
+flying_code
+-DCATKIN_DEVEL_PREFIX=/home/lll/PX4_Fly/devel -DCMAKE_INSTALL_PREFIX=/home/lll/PX4_Fly/install -G Unix Makefiles

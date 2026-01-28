@@ -1,0 +1,8 @@
+prefix=/home/lll/PX4_Fly/devel
+
+Name: flying_code
+Description: Description of flying_code
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
