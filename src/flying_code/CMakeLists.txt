@@ -130,6 +130,19 @@ target_link_libraries(mission_poly_node
   ${catkin_LIBRARIES}
 )
 
+add_executable(point_pid_node src/point_pid_node.cpp)
+add_dependencies(point_pid_node ${catkin_EXPORTED_TARGETS})
+target_link_libraries(point_pid_node
+  ${catkin_LIBRARIES}
+)
+
+add_executable(point_poly_node src/point_poly_node.cpp)
+add_dependencies(point_poly_node ${catkin_EXPORTED_TARGETS})
+target_link_libraries(point_poly_node
+  ${catkin_LIBRARIES}
+)
+
+
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
